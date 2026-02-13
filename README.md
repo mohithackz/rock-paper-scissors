@@ -1,19 +1,71 @@
 # Rock Paper Scissors 🎮
 
-A beginner‑friendly Rock Paper Scissors game built using **HTML**, **CSS**, and **JavaScript**.  
-The player selects Rock, Paper, or Scissors while the computer randomly chooses its move.  
-The game compares both choices, shows the result, and updates score boxes for both players.  
-It also includes a reset button to restart the scores and choices anytime.
+A simple, browser‑based Rock Paper Scissors game built using HTML, CSS, and JavaScript.
 
-## ✨ Features
-- Rock / Paper / Scissors buttons with emojis  
-- Randomized computer choice  
+This project focuses on handling player input, generating random computer choices, implementing win‑logic, and updating UI elements like score boxes and results dynamically.
+
+---
+
+##🚀 Features
+
+- Three selectable options: Rock, Paper, Scissors
+- Random computer choice
 - Displays:
-  - Your choice  
-  - Chitti’s (computer) choice  
-- Live score tracker with square score boxes  
-- Clear win/lose/tie messages  
-- Reset button to restart the game  
-- Clean and beginner‑friendly UI
+- Your choice
+- Chitti’s (computer) choice
+- Win, lose, and tie detection
+- Live score tracking using square score boxes
+- Reset button to restart scores and selections
+- Clean and minimal UI styling
+- Beginner-friendly code structure
 
-## 📂 Project Structure
+---
+
+##🧠 What I Learned
+
+While building this project, I strengthened my understanding of:
+
+- DOM manipulation
+- Event handling in JavaScript
+- Using arrays and random number logic
+- Conditional game logic
+- Updating UI elements dynamically
+- Managing simple game state
+- Structuring small frontend projects cleanly
+
+---
+
+##🛠️ Tech Stack
+
+HTML
+CSS
+JavaScript
+
+---
+
+##▶️ How To Run Locally
+
+1. Clone the repository:
+
+```
+git clone https://github.com/mohithackz/rock-paper-scissors.git
+```
+
+2. Open the project folder in VS Code or any editor
+3. Open index.html in your browser
+
+Start playing 🎉
+
+---
+
+##📌 Future Improvements
+
+Add sound effects
+Add animation effects for winning choices
+Best‑of‑5 or Best‑of‑10 game mode
+Mobile‑responsive layout
+
+---
+
+##👨‍💻 Author
+Mohit Yadav
