@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    background-color: #192A51;
+    color: #F5E6E8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+/* Container for the choice buttons */
+.container {
+    height: 10vh;
+    width: 100%;
+    padding: 12vh;
+    width: auto;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Wrap choices horizontally */
+.choices {
+    display: flex;
+    gap: 15px;
+}
+
+/* Buttons */
+.choice {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #F5E6E8;
+    color: #192A51;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background-color: #AAA1C8;
+}
+
+/* Result area: You / Chitti blocks side by side */
+#result {
+    font-size: 24px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 20px;
+}
+
+/* Each player block (score box + text) */
+.player-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Score square box */
+.score-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #967AA1;
+    color: #F5E6E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Outcome text */
+#outcome {
+    font-size: 28px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #D2BBA0;
+}
+
+/* Reset button under the message */
+#resetBtn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #F5E6E8;
+    color: #192A51;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#resetBtn:hover {
+    background-color: #AAA1C8;
+}
